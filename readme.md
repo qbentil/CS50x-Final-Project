@@ -1,15 +1,15 @@
-# AUTHOR: Shadrack Bentil
-# Portfolio: qbentil.netlify.app
-# Year: 2021
+## AUTHOR: Shadrack Bentil
+## Portfolio: qbentil.netlify.app
+## Year: 2021
 
 # PROJECT TITLE
-*** BENTIL WORDBEATER🏆 ***
+***BENTIL WORDBEATER🏆***
 
 # Video Demo:
-***<URL HERE> ***
+***<URL HERE>***
 
 # Live Demo:
-***<URL pukkawordbeater.netlify.app> ***
+***pukkawordbeater.netlify.app***
 
 # Description:
 
