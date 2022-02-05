@@ -9,7 +9,7 @@
 ***<URL HERE>***
 
 # Live Demo:
-***pukkawordbeater.netlify.app***
+***<a href = "pukkawordbeater.netlify.app" target = "_blank">DEMO</a>***
 
 # Description:
 
