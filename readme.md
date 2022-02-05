@@ -1,3 +1,5 @@
+<!-- **PROJECT STRUCTURE** -->
+![image](https://user-images.githubusercontent.com/55560024/152662485-876cbb7a-8bc9-4791-b0ad-279b1c89ddd0.png)
 ## AUTHOR: Shadrack Bentil
 ## Portfolio: qbentil.netlify.app
 ## Year: 2021
@@ -22,8 +24,7 @@ It gives students the opportunity to select thier own level in tems of speed
 and therefore can proceed to the more difficult level as they proceed
 It also helps students to get acquainted with words and their spellings.
 
-**PROJECT STRUCTURE**
-![image](https://user-images.githubusercontent.com/55560024/152662485-876cbb7a-8bc9-4791-b0ad-279b1c89ddd0.png)
+
 
 # CSS Directory:
 This directory contains all the stylesheet of thi App.
