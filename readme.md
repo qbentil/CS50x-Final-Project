@@ -1,7 +1,7 @@
 <!-- **PROJECT STRUCTURE** -->
 ![image](https://user-images.githubusercontent.com/55560024/152662485-876cbb7a-8bc9-4791-b0ad-279b1c89ddd0.png)
 ## AUTHOR: Shadrack Bentil
-## Portfolio: qbentil.netlify.app
+## Portfolio:  <a href = "https://qbentil.netlify.app" target = "_blank">qbentil.netlify.app</a>
 ## Year: 2021
 
 # PROJECT TITLE
@@ -10,7 +10,7 @@
 # Video Demo:
 ***<URL HERE>***
 
-# Live Demo: ***<a href = "pukkawordbeater.netlify.app" target = "_blank">DEMO</a>***
+# Live Demo: ***<a href = "https://pukkawordbeater.netlify.app" target = "_blank">DEMO</a>***
 
 
 
