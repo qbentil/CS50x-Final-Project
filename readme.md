@@ -56,3 +56,5 @@ This will motivate others to do more.
 
 # PROJECT TITLE
 **PUKKA WORDBEATER🏆**
+  ![image](https://user-images.githubusercontent.com/55560024/152662669-d24933f7-6f3a-416b-9768-c606f8e38c6d.png)
+
