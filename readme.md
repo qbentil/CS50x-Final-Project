@@ -8,8 +8,9 @@
 # Video Demo:
 ***<URL HERE>***
 
-# Live Demo:
-***<a href = "pukkawordbeater.netlify.app" target = "_blank">DEMO</a>***
+# Live Demo: ***<a href = "pukkawordbeater.netlify.app" target = "_blank">DEMO</a>***
+
+
 
 # Description:
 
