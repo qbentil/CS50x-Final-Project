@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{PUKKA}  WordBeater- Instructions</title>
+    <meta name="author" content="Bentil Shadrack, qbentil">
+    <meta name="description" content="Typing game to boost youer speed of typing">
+    <meta name="keywords" content="WordBeater, typing game, qbentil, pukka pukkatech">
+    <link rel="stylesheet" href="./css/style.css">
+      <!-- Favicons -->
+  <link href="./img/favicon.png" rel="icon">
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1><span class="code">{</span>PUKKA <span class="code">}</span> Type </h1>
+            <div class="dev flex-center flex-column">
+                <small id="welcome">Game Instructions</small>
+                <p class="text- people">
+                    1. Select you preferred Level to play. <br>
+                    <small>
+                        &nbsp; &nbsp;<span class="code">Easy</span> ------------------ 15s per word
+                        <br>&nbsp; &nbsp;<span class="code">Medium</span> ---------------- 10s per word
+                        <br>&nbsp; &nbsp;<span class="code">Hard</span> ------------------ 5s per word 
+                    </small><br><br>
+                    2. Type each word in the given time to score. <br>
+                    <br>3. To play again, just type the current word. <br> &nbsp; &nbsp; <i><small class="code">Note:</small></i><small id="welcome">Your score will reset.</small>
+                </p><br><br>
+                <!-- <h1 id="counter" class="text-center">0</h1> -->
+            </div>
+            <button onclick="goto('index')" class="btn">Go Home</button>
+            <button onclick="goto('level')" class="btn">Play Game</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="footer-body" class="flex-center flex-column">
+            <p>PUKKA TECHONOLOGIES &copy; <span id="year">                <script>
+                    document.write(new Date().getFullYear());
+                </script></span></p>
+        
+            <a href="http://qbentil.netlify.app" target="_blank">Made with ❤ @Themanbentil
+</a>
+        </div>
+    </div>
+
+    <script src="./js/counter.js"></script>
+</body>
+</html>

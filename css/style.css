@@ -1,0 +1,260 @@
+:root{
+    background-color: #ecf5f5;
+    font-size: 62.5%;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h1,h2,h3,h4{
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 3.5rem;
+    color: #00f;
+    margin-bottom: 3rem;  
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1, h1 .code {
+      font-size: 3rem;
+      margin-top: 2rem;
+    }
+    
+}
+h1>span{
+    color: #00f;
+    font-size: 4rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h2 {
+      font-size: 2.5rem;
+    }
+    
+}
+h3{
+    font-size: 2.8rem;
+    font-weight: 5009;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.code{
+    color: #f00;
+    /* font-size: 3rem; */
+}
+.success{
+    color: #0000ff;
+    text-transform: capitalize; 
+}
+
+/* utilities */
+.container, .footer, .container-alt{
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    overflow-y: auto;
+}
+.container-alt{
+    width: 100vw;
+    /* height: 93vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    overflow-y: auto;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #00f;
+}
+.footer{
+    overflow-y: hidden;
+    height: 5vh !important;
+    background-color: #00f;
+}
+.container > *{
+    width: 100%;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+/* buttons */
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem;
+    width: 30rem;
+    text-align: center;
+    border: 0.1rem solid #00f;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #00f;
+    background-color: #fff;
+}
+.btn-danger{
+    border: 0.1rem solid #f00;
+    color: #f00;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 255, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.btn-danger:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.btn[disabled]{
+    opacity: 0.8;
+}
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+.btn:focus{
+    outline: none;
+}
+small>*, small{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: blueviolet;
+}
+small>*{
+    font-weight: bold;
+}
+#me{
+    width: 20rem;
+    /* height: 20rem; */
+    border: none;
+    border: 0.1rem solid blue;
+    /* border-radius: 100vh; */
+}
+.code{
+    color: #f00;
+}
+.dev{
+    margin-bottom: 1rem;
+}
+#welcome{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.final-score{
+    color: rgba(35, 35, 235, 0.877) !important;
+    margin-bottom: 1.2rem !important;
+}
+.crossbar{
+    width: 100%;
+    background: #ecf5f5;
+    border-radius: 5px;
+
+}
+#welcome{
+    margin-top: -4rem;
+}
+#messages{
+    font-size: 1.2rem;
+    color: rgb(162, 0, 255);
+}
+.people{
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: blueviolet;
+    font-weight: bold;
+}
+/* FORMS */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    width: 50rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    color: #00f;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(0, 0, 255, 0.5);
+  }
+  input:focus{
+      outline: #00f;
+  }
+  input::placeholder {
+    color: #aaa;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    input {
+        width: 89vw;
+    }
+    
+  }
+  /* footer */
+  #footer-body>*{
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: #fff;
+  }
+  #footer-body>*:hover{
+      color:rgb(138, 138, 138) !important;
+  }
+  #header-body>*{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+  #header-body p{
+      margin-bottom: 0.1rem;
+  }
+  #footer-body p>span{
+      color: #fff;
+  }
+
+
+  /* Modal */
+  

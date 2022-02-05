@@ -1,0 +1,122 @@
+:root{
+    background-color: #ecf5f5;
+    font-size: 62.5%;
+    /* overflow: hidden; */
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h1,h2,h3,h4{
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 5rem;
+    color: #00f;
+    margin-bottom: 5rem;  
+}
+h1>span{
+    color: #00f;
+    font-size: 5.4rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+h3{
+    font-size: 2.8rem;
+    font-weight: 5009;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.view-questions{
+    width: 100vw;
+    max-width: 110rem;
+    /* height: 93vh; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+    /* background-color: #fff; */
+}
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(0, 0, 255, 0.25);
+    background-color: #fff;
+}
+#hud{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    max-width: 110rem;
+    margin: 1.5rem auto 0 auto;
+}
+#question{
+    text-align: left !important;
+    font-size: 2rem;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 255, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.choice-prefix{
+    padding: 1rem 2.5rem;
+    background: #00f;
+    color: #fff;
+}
+.choice-text{
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+}
+.correct{
+    background-color: #0f0;
+}
+.incorrect{
+    background-color: #f00;
+}
+.correct>*,
+.incorrect>*{
+    color: #fff; 
+}
+.footer{
+    overflow-y: hidden;
+    height: 5vh !important;
+    background-color: #00f;
+    max-width: 110rem;
+    margin: auto;
+}
+ /* footer */
+ #footer-body>*{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+}
+#footer-body>*:hover{
+    color:rgb(138, 138, 138) !important;
+}
+#footer-body p>span{
+    color: #fff;
+}

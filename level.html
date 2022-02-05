@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{PUKKA}  Wordbeater -Select game Level!</title>
+    <meta name="author" content="Bentil Shadrack, qbentil">
+    <meta name="description" content="Typing game, wordbeater,  qbentil">
+    <meta name="keywords" content="WordBeater, typing game, qbentil, pukka">
+    <link rel="stylesheet" href="./css/style.css">
+          <!-- Favicons -->
+  <link href="./img/favicon.png" rel="icon">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h3 class="success" id="sLevel"></h3>
+            <h3 class="code">-- Select Level --</h3>
+            <button class="btn" onclick="setlevel(this)" id="easy">Easy</button>
+            <button class="btn" onclick="setlevel(this)" id="medium">Medium</button>
+            <button class="btn" onclick="setlevel(this)" id="hard">Hard</button>
+            <br><br><br>
+            <small id="welcome">Level selected: <small id="s-level" class="uppercase">None</small></small>
+            <br>            
+            <button class="btn" onclick="goto('index')" id="back">&larr; Back Home</button>
+            <button class="btn hidden btn-danger" onclick="goto('game')" id="go">Start Game &rarr;</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="footer-body" class="flex-center flex-column">
+            <p>PUKKA TECHNOLOGIES&copy; <span id="year">
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+            </span></p>
+        
+            <a href="http://qbentil.netlify.app" target="_blank">Made with ❤ @Themanbentil
+ </a>
+        </div>
+    </div>
+    <script src="./js/level.js"></script>
+</body>
+</html>

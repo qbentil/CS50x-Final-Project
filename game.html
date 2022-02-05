@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bentil Shadrack, qbentil">
+    <meta name="description" content="Typing game, wordbeater,  qbentil">
+    <meta name="keywords" content="WordBeater, typing game, qbentil, pukka">
+    <title>{PUKKA}  WordBeater -Play</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/game.css">
+          <!-- Favicons -->
+  <link href="./img/favicon.png" rel="icon">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="text-center flex-column">
+            <div class="crossbar text-center flex-column">
+                <h1><span class="code">{</span>PUKKA<span class="code">}</span> word<span class="code">Beater</span> </h1>
+            </div>
+            <div id="hud">
+                <div id="hud-item">
+                    <p class="hud-prefix">Timer: <span id="time" class="">0</span></p>
+                    <div class="progress-bar" id="mother-bar">
+                        <div class="progress-bar-full" id="progress-bar"></div>
+                    </div>
+                </div>
+                <div id="hud-item">
+                    <p class="hud-prefix">Score</p>
+                    <h1 class="hud-main-text text-center" id="score">0</h1>
+                </div>
+            </div>
+            <div class="text-center flex-center">
+                <h2 id="current-word" class="text-center code"><div class="loader text-center"></div></h2>
+                <p id="welcome"><span id="messages"></span></p>
+            </div><br><br>
+                <form action="" method="POST" autocomplete="off" onsubmit="return false">
+                    <input type="text" name="username" placeholder="Start typing......" class="text-center flex-center" id="word-input" autofocus autocomplete="off">
+                    <small><i><span id="level">Hint</span>: </i>Type every word in <span id="seconds" class="code">10</span>s</small>
+                    <button type="button" onclick = "quit()" class="btn ">Quit Game</button>
+                    <button type="button" onclick="goto('level')" class="btn">Change Level</button>
+                </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="footer-body" class="flex-center flex-column">
+            <p>PUKKA TECHNOLOGIES &copy; <span id="year">
+                <script>
+                    document.write(new Date().getFullYear());
+                </script></span></p>
+        
+            <a href="http://qbentil.netlify.app" target="_blank">Made with ❤ @Themanbentil
+</a>
+        </div>
+    </div>
+    <script src="./js/words.js"></script>
+    <script src="./js/core.js"></script>
+</body>
+</html>
