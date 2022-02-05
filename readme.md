@@ -5,7 +5,7 @@
 ## Year: 2021
 
 # PROJECT TITLE
-***BENTIL WORDBEATER🏆***
+***PUKKA WORDBEATER🏆***
 
 # Video Demo:
 ***<URL HERE>***
@@ -18,7 +18,7 @@
 
 ***PURPOSE OF THE PROJECT***
 
-Bentil WordBeater is a Typing Challenge Game.
+PUKKA WordBeater is a Typing Challenge Game.
 This project is designed to students to improve their speed of typing.
 It gives students the opportunity to select thier own level in tems of speed
 and therefore can proceed to the more difficult level as they proceed
@@ -55,4 +55,4 @@ It will score users in WPM (Words per minute)
 This will motivate others to do more.
 
 # PROJECT TITLE
-*** BENTIL WORDBEATER🏆 ***
+**PUKKA WORDBEATER🏆**
