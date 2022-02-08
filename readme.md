@@ -1,4 +1,6 @@
 <!-- **PROJECT STRUCTURE** -->
+![CS50x](https://user-images.githubusercontent.com/55560024/152912699-0ce169fa-e532-404f-9f29-d030df30cdd5.png)
+
 ## JavaScript Typing Game🎮
 ![image](https://user-images.githubusercontent.com/55560024/152662485-876cbb7a-8bc9-4791-b0ad-279b1c89ddd0.png)
 ## AUTHOR: Shadrack Bentil
