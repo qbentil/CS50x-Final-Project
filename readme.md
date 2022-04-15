@@ -4,7 +4,7 @@
 ## JavaScript Typing Game🎮
 ![image](https://user-images.githubusercontent.com/55560024/152662485-876cbb7a-8bc9-4791-b0ad-279b1c89ddd0.png)
 ## AUTHOR: Shadrack Bentil
-## Portfolio:  <a href = "https://qbentil.netlify.app" target = "_blank">qbentil.netlify.app</a>
+## Portfolio:  <a href = "https://qbentil.com" target = "_blank">qbentil.com</a>
 ## Year: 2021
 
 # PROJECT TITLE
