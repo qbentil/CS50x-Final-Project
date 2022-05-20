@@ -1,6 +1,7 @@
   // window.addEventListener("load", init);
 //globals
-
+const CORRECTSOUND = new Audio("../sounds/sound_correct.mp3")
+const INCORRECTSOUND = new Audio("../sounds/sound_incorrect.mp3")
 const levels = {
     easy: 15,
     medium: 10,
@@ -84,6 +85,7 @@ const levels = {
     if (text.toLowerCase() === currentWord.innerHTML.toLowerCase()) {
       message.innerHTML = "CORRECT !";
       message.style.color = "#0f0"
+      CORRECTSOUND.play()
       return true;
     } else {
       message.innerHTML = "";
@@ -111,6 +113,7 @@ const levels = {
       
       message.innerHTML = "Game Over!";
       message.style.color = "#f00";
+      INCORRECTSOUND.play()
       // restart.style.display = "block"
       score = -1;
     }
